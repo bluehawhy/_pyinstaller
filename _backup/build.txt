@@ -1,0 +1,29 @@
+d:
+cd D:\_source\soucre_code\_venv\Scripts
+activate
+
+cd D:\_source\soucre_code\_pyinstaller
+
+=============================================================================
+=== nv_logwork build ===
+pyinstaller --noconsole --onefile --clean --icon=D:\_source\soucre_code\nv_logwork\static\icon\icon.ico D:\_source\soucre_code\nv_logwork\nv_logwork.py
+
+
+=== nv_mb_tools build ===
+pyinstaller --onefile --clean --icon=D:\_source\python\nv_mb_tools\static\icon\benz_icon.ico D:\_source\python\nv_mb_tools\nv_mb_tools.py
+
+
+=== nv_bs3bug_sync build ===
+pyinstaller --noconsole --onefile --clean --icon=D:\_source\soucre_code\nv_bs3bug_sync\static\icon\icon.ico D:\_source\soucre_code\nv_bs3bug_sync\nv_bs3bug_sync.py
+
+
+pyinstaller --noconsole --onefile --clean --icon=D:\_source\src\python\static\file_attach\icon\jira_icon.ico D:\_source\src\python\nv_file_attach.py
+
+=============================================================================
+
+
+pyinstaller --onefile --clean --icon=D:\03_Source\10_source_code\Python\static\dlt_parser\icon\icon.ico D:\03_Source\10_source_code\Python\nv_dlt_parser.py
+pyinstaller --onefile --clean --icon=D:\03_Source\10_source_code\Python\static\dlt_parser\icon\icon.ico D:\03_Source\10_source_code\Python\nv_dlt_parser.py
+
+--noconsole 
+
