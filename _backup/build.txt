@@ -10,7 +10,7 @@ pyinstaller --noconsole --onefile --clean --icon=D:\_source\soucre_code\nv_logwo
 
 
 === nv_mb_tools build ===
-pyinstaller --onefile --clean --icon=D:\_source\python\nv_mb_tools\static\icon\benz_icon.ico D:\_source\python\nv_mb_tools\nv_mb_tools.py
+pyinstaller --onefile --clean --icon=D:\_source\soucre_code\nv_mb_tools\static\icon\benz_icon.ico D:\_source\soucre_code\nv_mb_tools\nv_mb_tools.py
 
 
 === nv_bs3bug_sync build ===
